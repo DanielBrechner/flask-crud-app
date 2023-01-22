@@ -9,20 +9,30 @@
     <div class="row">
         <div class="col md-12">
             <div class="jumbotron p-3">
-                <h2>Manage <b>Employees</b><button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#mymodal">Add New Employees</button></h2>
+                <h2>Manage Workouts<button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#mymodal">Add New Workout</button></h2>
                 <table class="table table-hover table-dark">
                     <tr>
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Phone</th>
+                        <th>User</th>
+                        <th>Workout Name</th>
+                        <th>Date</th>
+                        <th>Set</th>
+                        <th>Rep</th>
+                        <th>Side</th>
+                        <th>Position</th>
+                        <th>Duration(sec)</th>
+                        <th>Edge Size(mm)</th>
                         <th>Action</th>
                     </tr>
                     <tr>
-                        <td>01</td>
                         <td>Daniel</td>
-                        <td>brech@gmail.com</td>
-                        <td>502-049-8489</td>
+                        <td>Max One Arms</td>
+                        <td>12/23/2022</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>Right</td>
+                        <td>Straight</td>
+                        <td>2.3</td>
+                        <td>20</td>
                         <td>
                             <a href="" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#modaledit">Edit</a>
                             <a href="" class="btn btn-danger btn-xs" onclick="return confirm('Are You Sure To Delete?')">Delete</a>
@@ -31,13 +41,13 @@
                 </table>
             </div>
 
-<!-- Modal Add Employee-->
+<!-- Modal Add Workout-->
 
 <div id="mymodal" class="modal fade" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title">Add Employee</h4>
+                <h4 class="modal-title">Add Workout</h4>
             </div>
 
             <div class="modal-body">
